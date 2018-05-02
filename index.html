@@ -34,53 +34,58 @@
             </div>
         </nav>
         
-        <div class="topCasaFina-banner">
-            <h1>TopCasaFina Arquitetura</h1>
-            <p>Projetando a casa dos sonhos desde 2.000 a.C.</p>
-            <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+        <div class="container topCasaFina-bannerwrapper">
+            <div class="topCasaFina-banner">
+                <h1>TopCasaFina Arquitetura</h1>
+                <p>Projetando a casa dos sonhos desde 2.000 a.C.</p>
+                <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+            </div>
         </div>
 
     </header>    
 
     <section id="sobre-nos" class="container">
         <h2>Sobre nós</h2>
-        <img class="img-responsive" src="bootstrap/img/empresa.jpg" alt="foto da empresa">
-        
-        <div class="panel-group" id="paineis-sobre">
+
+        <div class="row">
+            <img class="img-responsive col-sm-6" src="bootstrap/img/empresa.jpg" alt="foto da empresa">
             
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
-                </div>
+            <div class="panel-group col-sm-6 col-md-4 col-lg-3" id="paineis-sobre">
                 
-                <div id="primeiro-paragrafo" class="collapse in">
-                    <div class="panel-body">
-                        <p>A TopCasa Fina Arquitetura está no mercado desde  1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
                     </div>
-                </div>
+                    
+                    <div id="primeiro-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p>A TopCasa Fina Arquitetura está no mercado desde  1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+                        </div>
+                    </div>
+                </div>      
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis</h3>
+                    </div>
+                    <div id="segundo-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p> Preços a partir de R$ 1000,00</p>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria para colaborar com um mundo mais bonito</h3>
+                    </div>
+                    <div id="terceiro-paragrafo" class="collapse in">
+                        <div class="panel-body">
+                            <p> Preços a partir de R$ 1000,00</p>
+                        </div>
+                    </div>
+                </div>   
             </div>      
-            
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis</h3>
-                </div>
-                <div id="segundo-paragrafo" class="collapse in">
-                    <div class="panel-body">
-                        <p> Preços a partir de R$ 1000,00</p>
-                    </div>
-                </div>
-            </div> 
-            
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria para colaborar com um mundo mais bonito</h3>
-                </div>
-                <div id="terceiro-paragrafo" class="collapse in">
-                    <div class="panel-body">
-                        <p> Preços a partir de R$ 1000,00</p>
-                    </div>
-                </div>
-            </div>     
         </div> 
     </section>
     
@@ -93,45 +98,58 @@
     
     <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
-        <figure class="thumbnail projetos-responsivo">
-            <img src="bootstrap/img/projetos/casa-castelo.png" alt="foto da casa castelo">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
-            </figcaption>
-        </figure>
-        
-        <figure class="thumbnail projetos-responsivo">
-            <img src="bootstrap/img/projetos/casa-lago.png" alt="foto da casa lago">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
-            </figcaption>
-        </figure>
-        
-        <figure class="thumbnail projetos-responsivo">
-            <img src="bootstrap/img/projetos/mercado-marapira.png" alt="foto do mercado marapira">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
-            </figcaption>
-        </figure>
-        
-        <figure class="thumbnail projetos-responsivo">
-            <img src="bootstrap/img/projetos/palacio-dionisio.png" alt="foto do palacio dionisio">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
-            </figcaption>
-        </figure>
-        
-        <figure class="thumbnail projetos-responsivo">
-            <img src="bootstrap/img/projetos/residencia-ludi.png" alt="foto do residencia ludi">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
-            </figcaption>
-        </figure>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="bootstrap/img/projetos/casa-castelo.png" alt="foto da casa castelo">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="bootstrap/img/projetos/casa-lago.png" alt="foto da casa lago">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="bootstrap/img/projetos/mercado-marapira.png" alt="foto do mercado marapira">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="bootstrap/img/projetos/palacio-dionisio.png" alt="foto do palacio dionisio">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">            
+                <figure class="thumbnail">
+                    <img src="bootstrap/img/projetos/residencia-ludi.png" alt="foto do residencia ludi">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>     
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
     </section>
     
     <section id="depoimentos-clientes">
@@ -187,59 +205,65 @@
             
         </div>
     </section>
-    
-    <section id="video-institucional" class="container">
-        <h2>Vídeo institucional</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oy7gWZ04IVo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-    </section>
-    
-    <section id="contato" class="container">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco</p>
+    <div class="container">
+
+        <div class="row">
+
+            <section id="video-institucional" class="col-sm-6">
+                <h2>Vídeo institucional</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/oy7gWZ04IVo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </section>
         
-        <form action="">
-            
-            <div class="form-group">
-                <label for="contato-name">Nome:</label></br>
-                <input class="form-control" id="contato-name" type="text" placeholder="Seu nome">
-            </div>
-            
-            <div class="form-group">
-                <label for="contato-email">E-mail:</label>
-                <div class="input-group">
-                    <div class="input-group-addon">@</div>
-                    <input type="text" class="form-control" id="contato-email" placeholder="Seu e-mail">
-                </div>
-            </div>
-            
-            <div class="grupo-radio">
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="tipo-pessoa" checked>
-                        Pessoa Física
-                    </label>
-                </div>
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="tipo-pessoa">
-                        Pessoa Jurídica
-                    </label>
-                </div>
-            </div><!--
+    
+            <section id="contato" class="col-sm-6">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco</p>
                 
-            --><select class="contato-select form-control">
-                <option disabled selected>Tipo de situação</option>
-                <option>Casa</option>
-                <option>Apartamento</option>
-                <option>Mansão</option>
-            </select>
-        </form>
-        
-        <button class="btn btn-primary" type="submit">Enviar</button>
-    </section>  
-    
+                <form action="">
+                    
+                    <div class="form-group">
+                        <label for="contato-name">Nome:</label></br>
+                        <input class="form-control" id="contato-name" type="text" placeholder="Seu nome">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contato-email">E-mail:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                            <input type="text" class="form-control" id="contato-email" placeholder="Seu e-mail">
+                        </div>
+                    </div>
+                    
+                    <div class="grupo-radio">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="tipo-pessoa" checked>
+                                Pessoa Física
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="tipo-pessoa">
+                                Pessoa Jurídica
+                            </label>
+                        </div>
+                    </div><!--
+                        
+                    --><select class="contato-select form-control">
+                        <option disabled selected>Tipo de situação</option>
+                        <option>Casa</option>
+                        <option>Apartamento</option>
+                        <option>Mansão</option>
+                    </select>
+                </form>
+                
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </section>  
+        </div>    
+    </div>
+
     <footer>
         <address>
             <strong>TopCasaFina Arquitetura</strong><br>
